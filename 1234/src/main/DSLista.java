@@ -5,7 +5,7 @@ import labis.liste.ADSLista;
 
 public class DSLista extends ADSLista {
 
-	
+	@Override
 	public int metoda1() throws LabisException {
 		if(prvi == null)
 			throw new LabisException();

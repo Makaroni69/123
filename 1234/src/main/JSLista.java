@@ -32,6 +32,7 @@ public class JSLista extends AJSLista {
 		}
 	}
 	
+	@Override
 	public void metoda2(int podatak) throws LabisException{
 		CvorJSListe tekuci = prvi;
 		while(tekuci != null) {

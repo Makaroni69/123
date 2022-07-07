@@ -22,6 +22,7 @@ public class Niz extends ANiz {
 	}
 	 */
 	
+	@Override
 	public int metoda3b() throws LabisException{
 		int brojElemenata = 0;
 		int[] pomocni = new int[100];
