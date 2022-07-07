@@ -8,6 +8,8 @@ public class Niz extends ANiz {
 	/*
 	@Override
 	public int metoda3a() throws LabisException{
+		if(niz == null)
+			throw new LabisException();
 		int brojElemenata = 0;
 		for (int i = 0; i < niz.length; i++) {
 			int brojac = 0;
@@ -24,6 +26,8 @@ public class Niz extends ANiz {
 	
 	@Override
 	public int metoda3b() throws LabisException{
+		if(niz == null)
+			throw new LabisException();
 		int brojElemenata = 0;
 		int[] pomocni = new int[100];
 		for (int i = 0; i < pomocni.length; i++) {
